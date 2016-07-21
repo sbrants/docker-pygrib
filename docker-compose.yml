@@ -1,0 +1,7 @@
+version: '2'
+services:
+  test:
+    image: sbrants/pygrib
+    volumes:
+      - .:/code
+    command: python /code/main.py
